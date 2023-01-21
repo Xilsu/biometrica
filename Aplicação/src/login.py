@@ -70,7 +70,7 @@ class Login:
             if len(info) != 0:
                 self.window.destroy()
                 
-                app = Application('BIOMETRICA - ' + username, 'http://8b0a-34-86-136-41.ngrok.io')
+                app = Application('BIOMETRICA - ' + username, 'http://5293-34-143-131-183.ngrok.io')
                 app.window.mainloop()
             else:
                 messagebox.showerror(title='Falha no Login', message='O nome de Usuário e/ou a Senha estão incorretos.')
